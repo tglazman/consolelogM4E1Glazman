@@ -1,0 +1,185 @@
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+    .lista-nav {
+        display: none;
+      }
+    
+      main section article div h4 {
+        display: none;
+      }
+      .logo{
+        width: 50%;
+      }
+      .search{
+        width: 50%;
+      }
+      .top-header{
+        border: solid 4px red;
+        display: flex;
+        justify-content: space-between;
+      }
+      main section{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    @media only screen and (min-width: 769px){
+        main section article{
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+        .flex-tablet1{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 90vw;
+        }
+        .cafe1{
+          width: 50%;
+          margin: 30px;
+        }
+        .mac1{
+          width: 50%;
+          margin: 30px;
+        }
+        .product_img{
+          width: 60%;
+        }
+        .flex-tablet2{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 90vw;
+        }
+        .galaxy1{
+          width: 50%;
+          margin: 30px;
+        }
+        .tv1{
+          width: 50%;
+          margin: 30px;
+        }
+        .flex-tablet3{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 90vw;
+        }
+        .cafe2{
+          width: 50%;
+          margin: 30px;
+        }
+        .mac2{
+          width: 50%;
+          margin: 30px;
+        }
+        .flex-tablet4{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 90vw;
+        }
+        .galaxy2{
+          width: 50%;
+          margin: 30px;
+        }
+        .tv2{
+          width: 50%;
+          margin: 30px;
+        }
+        .burger-menu{
+          display: none;
+      }
+      .lista-nav{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+      }
+      .logo{
+          width: 300px;
+      }
+      .contenedor-header{
+        border: solid 3px red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .texto-cuotas{
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 5px;
+      }
+      /* .lista1{
+        margin-left: 8px;
+        list-style-type: none;
+      }
+      .lista2{
+        margin-right: 8px;
+        list-style-type: none;
+        list-style: none; */
+      /* } */
+      .lista-nav ul{
+        display: flex;
+      }
+
+        }
+        @media only screen and (min-width:1100px){
+          .desktop1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 90vw;
+          }
+          .cafe1{
+            width: 50%;
+            margin: 30px;
+          }
+          .mac1{
+            width: 50%;
+            margin: 30px;
+          }
+          .galaxy1{
+            width: 50%;
+            margin: 30px;
+          }
+          .tv1{
+            width: 50%;
+            margin: 30px;
+          }
+          .desktop2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 90vw;
+          }
+          .cafe2{
+            width: 50%;
+            margin: 30px;
+          }
+          .mac2{
+            width: 50%;
+            margin: 30px;
+          }
+          .galaxy2{
+            width: 50%;
+            margin: 30px;
+          }
+          .tv2{
+            width: 50%;
+            margin: 30px;
+          }
+          .contenedor-precio{
+            display: flex;
+            flex-direction: row;
+            align-content: flex-end;
+          }
+          .descuentos{
+            width: 42%;
+            margin-left: 4px;
+            font-size: 14px;
+          }
+          .precio{
+            width: 58%;
+            font-size: 16px;
+          }
+        }
+
+  
