@@ -26,7 +26,6 @@
         padding-bottom: 8px;
       }
       .top-header{
-        border: solid 4px red;
         display: flex;
         justify-content: space-between;
       }
@@ -127,7 +126,6 @@
           width: 210px;
       }
       .contenedor-header{
-        border: solid 3px red;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -139,7 +137,6 @@
         margin-left: 0px;
       }
       .search{
-        border: solid 5px red;
         text-align: center;
       }
       /* .lista1{
@@ -263,7 +260,6 @@
             width: 400px;
           }
           .foot{
-            border: solid 4px  red;
             display: flex;
             margin-left: 5%;
             margin-right: 5%;

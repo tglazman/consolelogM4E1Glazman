@@ -157,7 +157,6 @@ text-align: left;
        position: relative;
    }
    .contenedor-precio{
-       border: solid 4px red;
        display: flex;
        align-items: flex-end;
    }

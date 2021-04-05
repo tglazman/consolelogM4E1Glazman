@@ -11,7 +11,6 @@ main{
 .form-login{
     margin-left: 10%;
     margin-right: 10%;
-    border: solid 4px red;
 }
 .input-user{
     width: 100%;
@@ -39,7 +38,6 @@ main{
     .form-login{
         margin-left: 15%;
         margin-right: 15%;
-        border: solid 4px red;
     }
     .input-user{
         width: 100%;
