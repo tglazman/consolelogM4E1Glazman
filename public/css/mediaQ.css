@@ -12,6 +12,19 @@
       .search{
         width: 50%;
       }
+      #search-bar{
+        padding: 7px 7px;
+        border: none;
+        border-radius: 8px;
+        width: 85%;
+      }
+      #search-nav{
+        border: none;
+        background-color: white;
+        border-radius: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
       .top-header{
         border: solid 4px red;
         display: flex;
@@ -21,12 +34,32 @@
         display: flex;
         flex-direction: column;
       }
+      .texto-cuotas{
+        font-size:14px;
     }
+    }
+    @media only screen and (min-width: 769px) and (max-width: 1100px){
+      main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .top-header{
+      width: 70vw;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+    .search{
+      width: 45%;
+    }
+    .texto-cuotas{
+        font-size:14px;
+    }
+  }
     @media only screen and (min-width: 769px){
-        main section article{
-            box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        }
-        .flex-tablet1{
+      .burger-menu{
+        display: none;
+      }  
+      .flex-tablet1{
           display: flex;
           flex-direction: row;
           justify-content: space-between;
@@ -85,16 +118,13 @@
           width: 50%;
           margin: 30px;
         }
-        .burger-menu{
-          display: none;
-      }
       .lista-nav{
           display: flex;
           flex-direction: row;
           justify-content: space-between;
       }
       .logo{
-          width: 300px;
+          width: 210px;
       }
       .contenedor-header{
         border: solid 3px red;
@@ -103,9 +133,14 @@
         align-items: center;
       }
       .texto-cuotas{
-        font-size: 16px;
+        font-size: 14px;
         font-weight: bold;
         margin-right: 5px;
+        margin-left: 0px;
+      }
+      .search{
+        border: solid 5px red;
+        text-align: center;
       }
       /* .lista1{
         margin-left: 8px;
@@ -119,7 +154,30 @@
       .lista-nav ul{
         display: flex;
       }
-
+      .navlist{
+        margin-right: 10px;
+    }
+      #search-bar{
+        padding: 10px 20px;
+        border-radius: 8px;
+        border: none;
+        width: 80%;
+      }
+      #search-nav{
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 8%;
+        background-color: white;
+        border-radius: 8px;
+        margin-left: 0px;
+      }
+      .precio{
+        font-size: 16px;
+      }
+      .search{
+        text-align: center;
+      }
         }
         @media only screen and (min-width:1100px){
           .desktop1{
@@ -127,6 +185,26 @@
             flex-direction: row;
             justify-content: space-between;
             width: 90vw;
+            margin: auto;
+          }
+          .search{
+          width: 330px;  
+          margin-left: 12px;
+          }
+          #search-bar{
+            padding: 12px 30px;
+            border-radius: 8px;
+            border: none;
+            width: 90%;
+          }
+          #search-nav{
+            border: none;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            width: 8%;
+            background-color: white;
+            border-radius: 8px;
+            margin-left: 0px;
           }
           .cafe1{
             width: 50%;
@@ -149,6 +227,7 @@
             flex-direction: row;
             justify-content: space-between;
             width: 90vw;
+            margin:auto;
           }
           .cafe2{
             width: 50%;
@@ -180,6 +259,31 @@
             width: 58%;
             font-size: 16px;
           }
+          .logo{
+            width: 400px;
+          }
+          .foot{
+            border: solid 4px  red;
+            display: flex;
+            margin-left: 5%;
+            margin-right: 5%;
+          }
+          footer .foot section article div i:hover {
+           color:#388e3c;
+          }
+          main section article:hover .descripciones {
+            display: block;
+          }
+          .descripciones{
+            display: none;
+          }
+          main section article:hover{
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
         }
-
-  
+        main section article{
+          transition: all 500ms;
+        }
+        /* .top-header{
+          width: 66vw;
+        } */
+        }

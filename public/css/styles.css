@@ -4,6 +4,10 @@
     margin: 0px;
     padding: 0px;
 }
+.navlist{
+    list-style: none;
+    margin-right: 20px;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -27,6 +31,7 @@ header{
 
 .precio{
     font-size: 18px;
+    font-weight: bold;
 }
 main section p {
     font-size: 16px;
@@ -134,7 +139,7 @@ text-align: left;
     color: #666;
     margin-left: 20px;
   }
-main section article i{
+  main section article div i{
     display: block;
     font-size: 16px;
     padding: 5px;
@@ -142,10 +147,14 @@ main section article i{
     height: 30px;
     border: 1px solid #39b54a;
     background-color: #FFF;
+    color: #39b54a;
     border-radius: 50%;
     position: absolute;
     right: 20px;
     top: -15px;
+   }
+   .box{
+       position: relative;
    }
    .contenedor-precio{
        border: solid 4px red;
